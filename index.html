@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html>
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	<script src="js/index.js"> </script>
 	<head>
 		<meta charset="utf-8" />
 		<title>
-			This is my first Html 
+			这是我的第一个HTML文件
 		</title>
 	</head>
+	<h1> "这是一级标题"</h1>
 	<body>
-		Hello World!
+		<em>你好 世界!</em>
+		<input type="text" id="inputWindow" value="这是输入窗口" />
+		<input type="password" name="这是密码" />
+		<p>
+			这是一个块
+			<div id="left" class="left">
+				<h1 id="leftTitle">"左面布局"</h1>
+			</div>
+			<div id="right" class="right">
+				右面布局
+			</div>
+		</p>
+		<p>
+			这又是一块
+			<button type="button" id:"clickbutton" onclick="displayDate()">确认</button>
+		</p>
+		<p id="timeView">
+			显示时间
+		</p>
 	</body>
 </html>
